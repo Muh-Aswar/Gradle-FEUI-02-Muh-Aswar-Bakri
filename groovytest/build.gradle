@@ -1,0 +1,16 @@
+task upperCase(dependsOn:'counting') {
+    doLast {
+        def someText = 'I am Gradle'
+
+        println "Original: " + someText
+
+        println "Upper case: " + someText.toUpperCase()
+    }
+}
+
+task counting {
+    doLast {
+        6.times{print "$it "}
+        println " "
+    }
+}

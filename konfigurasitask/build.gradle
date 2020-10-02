@@ -1,0 +1,24 @@
+task konfigurasi
+
+konfigurasi {
+    doLast{
+        println 'Checking network connection'
+    }
+}
+
+konfigurasi{
+    doLast{
+        println 'conecting to server'
+    }
+}
+
+konfigurasi{
+    doLast{
+        println'Connecting is stabilished'
+    }
+}
+
+konfigurasi{
+        println'Setting up connencting request'
+    
+}

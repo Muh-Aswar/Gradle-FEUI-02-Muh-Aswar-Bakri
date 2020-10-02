@@ -1,0 +1,13 @@
+task kontrol
+
+kontrol{
+    doLast{
+        println 'aksi pertama'
+    }
+}
+
+kontrol{
+    doLast{
+        println 'aksi ke- dua'
+    }
+}

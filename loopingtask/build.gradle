@@ -1,0 +1,7 @@
+9.times { index ->
+    task "task$index" {
+        doLast {
+            println"Task nomor-$index"
+        }
+    }
+}

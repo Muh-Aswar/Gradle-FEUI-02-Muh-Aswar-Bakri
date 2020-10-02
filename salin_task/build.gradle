@@ -1,7 +1,5 @@
 task copyReport(type: Copy){
-    from "$buildDir/reports"
-    include "*.pdf"
-    //println 'sedang melakukan copy'
-    into "$buildDir/toArchive"
-    //println 'copy selesai..'
+    from file ("$buildDir/reports/laporan-1.pdf")
+    into file ("$buildDir/toArchive")
+    println 'copy selesai..'
 }
